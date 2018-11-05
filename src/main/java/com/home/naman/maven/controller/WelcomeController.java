@@ -9,6 +9,7 @@ import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.home.naman.maven.model.Person;
@@ -24,7 +25,7 @@ public class WelcomeController {
 	@Autowired
 	private WelcomeService service;
 	
-	@RequestMapping("/welcome")
+	@RequestMapping(value="/welcome")
 	public Map<String,Person> welcome(){
 		return service.welcomeMessage();
 	}

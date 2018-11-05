@@ -28,6 +28,7 @@
      <groupId>org.springframework.boot</groupId>
 	 <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+    <!-- Added below dependency to get the rest wenservice response in xml format -->
     <dependency>
      <groupId>com.fasterxml.jackson.dataformat</groupId>
      <artifactId>jackson-dataformat-xml</artifactId>

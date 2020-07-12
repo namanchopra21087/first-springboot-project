@@ -1,4 +1,4 @@
-package com.home.naman.maven.controller;
+package com.home.naman.maven;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan("com")
-public class App 
+public class Main
 {
     public static void main( String[] args )
     {
-      ApplicationContext ctx=SpringApplication.run(App.class, args);    
+      ApplicationContext ctx=SpringApplication.run(Main.class, args);
     }
 }

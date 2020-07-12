@@ -30,8 +30,8 @@ public class WelcomeService {
 	public Map<String,Person> getNext(){
 		Map<String,Person> personMap=new HashMap<>();
 		Person p=new Person();
-		p.setName("Get Next App");
-		p.setCountry("Next App");
+		p.setName("Get Next Main");
+		p.setCountry("Next Main");
 		p.setId(2);
 		personMap.put("Second", p);
 		return personMap;
